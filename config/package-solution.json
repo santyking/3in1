@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "3-in-1-client-side-solution",
+    "id": "71d9b158-8564-464e-a323-761beb34231f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "3in1 description"
+      },
+      "longDescription": {
+        "default": "3in1 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "3-in-1 Feature",
+        "description": "The feature that activates elements of the 3-in-1 solution.",
+        "id": "47cdfaca-cb7b-4d3b-bd40-4ef43f17f281",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/3-in-1.sppkg"
+  }
+}
